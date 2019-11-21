@@ -1,0 +1,27 @@
+@mixin clear(){
+	clear: both;
+	content: '';
+	display: table;
+}
+
+@mixin headings {
+	font-family: $headerText;
+	font-weight: bold;
+	color: $textColor;
+}
+
+@mixin align-center{
+    display:block;
+    margin:0 auto;
+}
+
+@mixin bannerButton{
+	position: absolute;
+	font-family: $headerText;
+	color: white;
+	font-size: 1.75em;
+	border-radius: 50px;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+}

@@ -1,0 +1,98 @@
+*, *:before, *:after{
+ 	margin:0;
+ 	padding:0;
+ 	text-decoration: none;
+  box-sizing: border-box;
+ }
+
+html{
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+
+ body{
+    background-color: rgba(52, 101, 101, 0.2);
+    font-family: $text;
+}
+
+h1 {
+  @include headings;
+  font-size: 2em;
+}
+
+h2{
+  @include headings;
+  font-size: 1.75em;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  padding-left: 2%;
+}
+
+h3{
+  @include headings;
+  font-size: 1.75em;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2%;
+  margin-bottom: 3%;
+
+}
+
+h4{
+  @include headings;
+  font-size: 1.25em;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  padding-left: 2%;
+}
+
+p{
+  color: $textColor;
+  font-family: $text;
+  font-size:1.125em;
+  padding-left: 2%;
+
+}
+
+
+ul{
+    margin-left:3%;
+    margin-right: 0px !important;
+}
+
+li{
+  color: $textColor;
+  font-family: $text;
+  font-size: 1.125em;
+}
+
+p, li, h2, h3, h4 {
+  margin-left: 1%;
+}
+
+hr{
+	border-bottom: solid $brandColor 2px;
+	width: 70%;
+	margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+a{
+  color: $brandColor;
+}
+
+a:hover{
+  color: #663399;
+}
+
+select{
+  	width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid $brandColor 2px;
+    font-family: $text;
+    font-size: 1.25em;
+    background-color: white;
+}

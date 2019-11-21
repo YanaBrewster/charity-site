@@ -1,0 +1,52 @@
+
+#nav::after{
+    @include clear;
+    display: block;
+}
+
+.sidenav :hover {
+  color: $brandColor;
+}
+
+
+// BUTTONS
+
+.btn-purple:hover {
+  background-color: #666699;
+  color: white;
+}
+
+.btn-purple:active {
+  background-color: $footerTop;
+}
+
+.btn-blue:hover {
+  background-color: #663399;
+  color: white;
+}
+
+
+.btn-blue:active {
+  background-color: $brandColor;
+}
+
+.btn-magenta:hover {
+  background-color: #663399;
+  color: white;
+}
+
+.btn-magenta:active {
+  background-color: #666699;
+}
+
+.btn-press:hover {
+  background-color: #663399;
+  color: white;
+}
+
+.btn-press:active {
+  background-color: #666699;
+  box-shadow: 0 5px #333366;
+  transform: translateY(4px);
+}
+

@@ -1,0 +1,107 @@
+// TYPOGRAPHY
+
+// IMAGES
+
+
+.image-xlarge img{
+  width: 100%;
+  padding: 0px;
+}
+
+
+.image-large img{
+  width: 75%;
+  padding: 0px;
+}
+
+
+.image-med img{
+  width: 60%;
+  padding: 0px;
+}
+
+.image-small img{
+  width: 40%;
+  padding: 0px;
+}
+
+.image-center img{
+    text-align: center;
+    display:block;
+    margin:0 auto;
+}
+
+.image-vsmall img{
+    width: 60%;
+    margin: 0px;
+    padding: 0px;
+  @media screen and (min-width: $mdWidth){
+    width: 40%;
+  }
+  @media screen and (min-width: $lgWidth){
+    width: 30%;
+  }
+
+}
+
+// TEXT AREAS
+
+.textarea-small {
+  padding-bottom: 20px;
+  padding-left: 3%;
+  padding-right: 3%;
+p{
+  width: 100%;
+  @media screen and (min-width: $mdWidth){
+   width: 70%;
+  }
+  @media screen and (min-width: $lgWidth){
+    width: 70%;
+  }
+}
+}
+
+.textarea-medium {
+  padding-bottom: 45px;
+  padding-left: 3%;
+  padding-right: 3%;
+  p{
+  width: 90%;
+  @media screen and (min-width: $mdWidth){
+   width: 90%;
+  }
+  @media screen and (min-width: $lgWidth){
+    width: 75%;
+  }
+}
+}
+
+.textarea-large {
+  padding-bottom: 45px;
+  padding-left: 3%;
+  padding-right: 3%;
+  p{
+  width: 80%;
+  @media screen and (min-width: $mdWidth){
+  width: 80%;
+  }
+  @media screen and (min-width: $lgWidth){
+  width: 85%;
+  }
+}
+}
+
+.textarea-left p ul {
+  text-align: left;
+}
+
+
+.textarea-left-center p{
+  text-align: left;
+  margin: 0 auto;
+}
+
+.textarea-center p{
+  margin: 0 auto;
+  text-align: center;
+}
